@@ -1,0 +1,20 @@
+{
+  "name": "wp-opening-times-pro",
+  "version": "1.0.0",
+  "description": "Opening Times Plugin for WordPress",
+  "main": "wp-opening-times-pro.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Jones - We are Woolf",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-postcss": "^6.0.1",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.5"
+  }
+}

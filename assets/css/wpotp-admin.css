@@ -1,0 +1,245 @@
+.wpotp-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box; }
+  .wpotp-container *, .wpotp-container *:before, .wpotp-container *:after {
+    box-sizing: inherit; }
+  .wpotp-container img {
+    max-width: 100%;
+    height: auto; }
+
+.wpotp-row {
+  margin-right: -15px;
+  margin-left: -15px; }
+  .wpotp-row:before {
+    display: table;
+    content: " "; }
+  .wpotp-row:after {
+    display: table;
+    content: " ";
+    clear: both; }
+
+.wpotp-col-full {
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.wpotp-col-large {
+  width: 75%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (max-width: 1200px) {
+    .wpotp-col-large {
+      width: 100%; } }
+
+.wpotp-col-small {
+  width: 25%;
+  float: right;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (max-width: 1200px) {
+    .wpotp-col-small {
+      width: 100%; } }
+
+.wpotp-page-title {
+  margin-bottom: 30px !important; }
+
+.wpotp-advert {
+  text-align: center; }
+  @media (max-width: 1200px) {
+    .wpotp-advert img {
+      max-width: 60%; } }
+
+.wpotp-links {
+  margin: 30px 0; }
+  .wpotp-links a {
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 700;
+    width: 200px;
+    padding: 9px 16px;
+    text-align: center;
+    background: #7F46A1;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 auto 10px auto; }
+    .wpotp-links a:hover {
+      background: #63377d; }
+
+.wpotp-tabs {
+  margin: 30px 0; }
+  .wpotp-tabs__nav {
+    border-bottom: 1px solid #D4D9D7; }
+    @media (max-width: 660px) {
+      .wpotp-tabs__nav {
+        margin-bottom: 20px; } }
+    .wpotp-tabs__nav:before {
+      display: table;
+      content: " "; }
+    .wpotp-tabs__nav:after {
+      display: table;
+      content: " ";
+      clear: both; }
+    .wpotp-tabs__nav__item {
+      display: block;
+      text-align: center;
+      background: #DEE3E1;
+      text-transform: uppercase;
+      font-size: 40px;
+      letter-spacing: 1px;
+      font-weight: 700;
+      border-top: 1px solid #D4D9D7;
+      border-left: 1px solid #D4D9D7;
+      width: 200px;
+      border-right: none;
+      text-decoration: none;
+      color: #76797D;
+      float: left;
+      line-height: 1;
+      position: relative;
+      top: 1px; }
+      @media (max-width: 660px) {
+        .wpotp-tabs__nav__item {
+          width: 100%;
+          border-bottom: 1px solid #D4D9D7; } }
+      .wpotp-tabs__nav__item__text {
+        font-size: 12px;
+        display: block; }
+      .wpotp-tabs__nav__item .dashicons {
+        font-size: 30px;
+        width: 30px;
+        height: 30px; }
+      .wpotp-tabs__nav__item:last-child {
+        border-right: 1px solid #D4D9D7; }
+      .wpotp-tabs__nav__item:focus {
+        box-shadow: none; }
+      .wpotp-tabs__nav__item__inner {
+        border-top: 4px solid #DEE3E1;
+        display: block;
+        padding: 13px 10px; }
+      .wpotp-tabs__nav__item.active {
+        color: #7F46A1;
+        border-top-color: #7F46A1;
+        background: #fff;
+        border-bottom: 1px solid #fff; }
+        .wpotp-tabs__nav__item.active .wpotp-tabs__nav__item__inner {
+          border-top-color: #7F46A1; }
+      .wpotp-tabs__nav__item:hover {
+        color: #7F46A1;
+        text-decoration: none; }
+  .wpotp-tabs__content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #D4D9D7;
+    border-top: 0;
+    background: #fff; }
+    @media (max-width: 660px) {
+      .wpotp-tabs__content {
+        border-top: 1px solid #D4D9D7; } }
+    .wpotp-tabs__content.active {
+      display: block; }
+    .wpotp-tabs__content .form-table th {
+      width: 120px;
+      padding: 30px 0;
+      vertical-align: middle; }
+      @media (max-width: 782px) {
+        .wpotp-tabs__content .form-table th {
+          padding: 30px 0 10px 0;
+          width: 100%; } }
+    .wpotp-tabs__content .form-table td {
+      padding: 30px 0; }
+      @media (max-width: 782px) {
+        .wpotp-tabs__content .form-table td {
+          padding: 10px 0 30px 0; } }
+    .wpotp-tabs__content .form-table tr {
+      border-top: 1px solid #D4D9D7; }
+      .wpotp-tabs__content .form-table tr:first-child {
+        border-top: none; }
+
+.wpotp-timepicker__row {
+  position: relative;
+  padding-left: 30px; }
+  .wpotp-timepicker__row:last-child:hover .wpotp-timepicker__delete {
+    display: block; }
+  @media (max-width: 782px) {
+    .wpotp-timepicker__row {
+      padding-left: 0;
+      padding-right: 30px;
+      margin-bottom: 20px; } }
+
+.wpotp-timepicker__input {
+  display: inline-block;
+  height: 38px;
+  border-radius: 2px; }
+  .wpotp-timepicker__input:focus {
+    box-shadow: 0 0 2px rgba(127, 70, 161, 0.8) !important;
+    border-color: #7F46A1 !important; }
+
+.wpotp-timepicker__divide {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #76797D;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 38px; }
+  @media (max-width: 782px) {
+    .wpotp-timepicker__divide {
+      display: block;
+      margin: 0;
+      line-height: 26px; } }
+
+.wpotp-timepicker__delete {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  display: none;
+  margin-top: -10px;
+  background: #FF5555;
+  color: #fff;
+  border-radius: 3px; }
+  .wpotp-timepicker__delete:hover {
+    background: #ff2222;
+    cursor: pointer; }
+  @media (max-width: 782px) {
+    .wpotp-timepicker__delete {
+      left: auto;
+      right: 0px;
+      display: block;
+      top: 10px;
+      margin-top: 0px; } }
+
+.wpotp-timepicker__button {
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 8px 16px;
+  background: #7F46A1;
+  margin-top: 10px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 30px; }
+  .wpotp-timepicker__button:hover {
+    cursor: pointer;
+    background: #63377d; }
+  @media (max-width: 782px) {
+    .wpotp-timepicker__button {
+      margin-left: 0; } }
+
+/*# sourceMappingURL=wpotp-admin.css.map */
